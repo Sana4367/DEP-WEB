@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="../addToCart.js"></script>
+    <script src="include/addToCart.js" defer></script>
+    <title>My E-commerce Site</title>
 </head>
 <body>
-    <header>
-        <div class="logo">MyStore</div>
-        <nav>
-            <ul>
-                <li><a href="../home.php">Home</a></li>
-                <li><a href="../products.php">Products</a></li>
-                <li><a href="../cart.php">Cart</a></li>
-                <li><a href="../contact.php">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="container">
+<header>
+    <div class="logo">Stylish World</div>
+    <nav>
+        <ul>
+            <li><a href="/3rd_Task/home.php">Home</a></li>
+            <li><a href="/3rd_Task/products.php">Products</a></li>
+            <li><a href="/3rd_Task/cart.php">Cart</a></li>
+        </ul>
+    </nav>
+</header>
