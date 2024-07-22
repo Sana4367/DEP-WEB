@@ -13,7 +13,7 @@
         <nav>
             <ul>
                 <li><a href="../home.php">Home</a></li>
-                <li><a href="../pages/products.php">Products</a></li>
+                <li><a href="../products.php">Products</a></li>
                 <li><a href="../cart.php">Cart</a></li>
                 <li><a href="../contact.php">Contact</a></li>
             </ul>
