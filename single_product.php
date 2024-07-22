@@ -26,7 +26,8 @@ if (!$product) {
         <img src="images/<?php echo $product['image']; ?>" alt="<?php echo $product['name']; ?>">
         <h3><?php echo $product['name']; ?></h3>
         <p>$<?php echo $product['price']; ?></p>
-        <p><?php echo $product['description']; ?></p>
+        <p><?php echo $product['description']; ?></p> <!-- Full description -->
+
         <button onclick="addToCart(<?php echo $product['id']; ?>)">Add to Cart</button>
     </div>
 </section>
