@@ -1,3 +1,4 @@
+
 function addToCart(productId) {
     var form = document.createElement("form");
     form.method = "POST";
@@ -10,5 +11,8 @@ function addToCart(productId) {
 
     form.appendChild(input);
     document.body.appendChild(form);
+    alert("Product has been added to the cart!");
     form.submit();
+
+    
 }
